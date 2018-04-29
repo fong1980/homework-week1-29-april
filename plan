@@ -1,0 +1,50 @@
+plan, 
+
+1: read the assignment. 
+2: scan trough the content of the file index.html/test.js/your_script_here.js
+3: run the program, see what happens
+
+4; repeat the first 2 steps again. Then decide about the step 5.
+
+5: start making object. 
+	what is a value and key in a object again? // a:20; a= key, 20 = value
+	how to creat a object in a object? // solved
+
+6: making function in part 2.
+	see where the functions being called in the file, and what the function has to be 	proces or return values .... /maybe not yet. 
+7 : 	functionTests	@	tests.js:117 // well lets declare all the function first. // declare 5 empty function  to see if the error goes away. 
+8: 	the fill all the function with content. 
+	function pickUpItem not working yet, let do the rest rest of the function first.
+	// gevonden.... 
+	bij eauipweapon= console.log (creature.inventory); = [{…}]
+		0
+		:
+		{type: "gun", damage: "100"}
+		length
+		:
+		1
+		__proto__
+		:
+		Array(0) ????? 
+
+was expecting something like. inventory:['spoon', 'fork'],  
+find out how to remove item from array by indexNr.
+
+loopt vast. door naar de volgende functie
+
+9: doBattle
+	// write program according my own expectation of outcome, not working, 
+	// let see the test.js first about the expected outcome. 
+10: copy this to yourjavascript.js
+
+var heroStub = { heroic: true, health: 10, weapon: { damage: 2 } }
+ var creatureStub = { heroic: false, health: 5, weapon: { damage: 1 } }
+
+then make the battle function till outcome heroicCreature.health ===8
+	=unfunction the test.js.
+	= put the value in your script to test. 
+	= make test.js function again and test!
+	
+11: go back to solve the problem at the function equipweapon
+	= dit doe ik nooit meer creature.inventory.splice[index, index+1]
+
