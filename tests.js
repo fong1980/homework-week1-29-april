@@ -1,5 +1,5 @@
 // This file has tests to help you see how you are doing
-console.clear();
+
 
 
 function heroExists(){ return typeof hero !== 'undefined' && hero.constructor === Object }
@@ -59,7 +59,8 @@ function doBattleGuardStatementWorks() {
     var creatureStub = { heroic: false, health: 5, weapon: { damage: 1 } }
 
     try {
-        var error = doBattle(creatureStub, heroStub)
+        var error = doBattle(creatureStub, heroStub) // do the battle!
+        //console.log(error)
         return error === null
     } catch (error) {
         return false
@@ -71,6 +72,7 @@ function doBattleWorks() {
     var creatureStub = { heroic: false, health: 5, weapon: { damage: 1 } }
     try {
         var victor = doBattle(heroStub, creatureStub)
+      //  console.log(victor.heroic)// victor.health)
         return victor.heroic && victor.health === 8
     } catch (error) {
         return false
